@@ -103,9 +103,11 @@
 
 .stream-section{
   position: relative;
+  width: 100%;
   max-width: 1345px;
-  margin: 25px;
+  margin: 25px auto;
   padding: 0 15px;
+  overflow-x: scroll;
 }
 
 .slide-controll-btn{
@@ -130,11 +132,11 @@
 }
 
 .slide-controll-btn-left{
-  left: -5px;
+  left: 0;
 }
 
 .slide-controll-btn-right{
-  right: -5px;
+  right: 0;
 }
 
 .movies-list{
@@ -175,4 +177,20 @@
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 750px) {
+  .slide-controll-btn{
+    display: none;
+  }
+
+    .slider img {
+      width: 100vw;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .slider .title-and-desc{
+      display: none;
+    }
 }
