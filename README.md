@@ -19,7 +19,7 @@ This repository holds the source code for a basic movie review website built for
 **Technologies:**
 * HTML for structure and content.
 * CSS for styling and layout.
-* JavaScript for dynamic behavior like submitting reviews and (optionally) filtering movies.
+* JavaScript for dynamic behavior.
 
 **Running the project:**
 1. Clone the repository or download the zip file.
