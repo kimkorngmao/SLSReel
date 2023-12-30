@@ -71,6 +71,7 @@ body{
 .nav-top-bar-middle ul li{
     font-size: 0.9rem;
     position: relative;
+    list-style: none;
 }
 
 .menu-item{
@@ -400,10 +401,14 @@ body{
 }
 
 @media screen and (max-width: 650px) {
+    #footer{
+        padding: 0;
+    }
+    
     .footer-container{
         flex-direction: column-reverse;
         justify-content: center;
-        padding: 15px;
+        height: 80px;
     }
 }
 

@@ -18,6 +18,11 @@
     background-color: #ffeef0;
 }
 
+#contact-form{
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
 #contact-form form label {
     display: block;
     margin-bottom: 5px;

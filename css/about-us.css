@@ -34,7 +34,7 @@
 
 .teammates-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(120px,1fr));
 }
 
 .teammate-profile{
@@ -56,4 +56,17 @@
     width: 1.5px;
     height: 15px;
     background-color: black;
+}
+
+.contact-us-via-about-page {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 400px) {
+    .contact-us-via-about-page{
+        font-size: 0.7rem;
+    }
 }
