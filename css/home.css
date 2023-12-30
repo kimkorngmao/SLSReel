@@ -61,11 +61,14 @@
 .image-dots {
   position: absolute;
   bottom: 10px;
-  left: 45%;
+  width: 120px;
   display: flex;
   justify-content: center;
   margin-top: 10px;
   list-style: none;
+  left: 50%; /* Add this line to center horizontally */
+  transform: translateX(-50%);
+  box-sizing: border-box;
 }
 
 .image-dot {
@@ -186,12 +189,18 @@
   }
 
   .slider img {
-    width: 100vw;
+    width: 100%;
     height: auto;
+    aspect-ratio: 16/9;
     object-fit: cover;
   }
 
   .slider .title-and-desc {
     display: none;
+  }
+
+  .image-dot {
+    width: 10px;
+    height: 10px;
   }
 }
