@@ -34,6 +34,7 @@
 
 .teammates-list{
     display: grid;
+    grid-gap: 10px 0;
     grid-template-columns: repeat(auto-fit, minmax(120px,1fr));
 }
 
@@ -63,6 +64,18 @@
     align-items: center;
     gap: 5px;
     font-size: 1rem;
+}
+
+@media screen and (max-width: 585px){
+    .purpose{
+        font-size: 0.9rem;
+        display: block;
+    }
+
+    .user-box{
+        font-size: 0.8rem;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 400px) {

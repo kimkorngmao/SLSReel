@@ -379,8 +379,8 @@ body{
         width: 100%;
         padding: 10px 10px;
         padding-bottom: 20px;
-        background-color: var(--wb-color-surface);
-        border-bottom: 1px solid #615e5e;
+        background-color: var(--wb-color-header);
+        border-bottom: 1px solid #ddd;
     }
 
     .nav-top-bar-middle > ul{
