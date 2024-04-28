@@ -1,0 +1,135 @@
+/* .movie-details-content{
+   max-width: 1350px;
+  margin: 0 auto; 
+} */
+
+.movie-details{
+  position: relative;
+  width: 100%;
+}
+
+.movie-details img{
+    width: 100%;
+    object-fit: cover;
+    height: calc(100vh - var(--wb-nav-top-height));
+}
+
+.bg-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right, #201f1f8d, rgba(107, 105, 105, 0.316));
+}
+
+.details{
+  position: absolute;
+  left: 3%;
+  top: 55%;
+  max-width: 700px;
+}
+
+.movie-title{
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+
+.title-info-metadata-wrapper{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 10px 0;
+  color: rgb(198, 202, 203);
+}
+
+.devide-line {
+  display: block;
+  width: 1px;
+  height: 15px;
+  background-color: rgb(198, 202, 203);
+}
+
+.age-rate{
+  border: 1px solid rgb(198, 202, 203);
+  padding: 0 7px;
+  text-align: center;
+}
+
+.hidden-desktop{
+  display: none !important;
+}
+
+.movie-desc{
+  color: #FFFFFF;
+  line-height: 30px;
+}
+
+.notice{
+  padding: 15px;
+  margin: 15px;
+  color: #FFFFFF;
+  border-radius: 2px;
+  background-color: rgb(23, 23, 23);
+}
+
+.trailer-title{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 3px 15px;
+  margin: 15px 0;
+}
+
+.trailer-title::before{
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  border-radius: 2px;
+  background-color: blue;
+}
+
+iframe{
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  max-width: 700px;
+  /* margin: 10px 15px; */
+  border-radius: 2px;
+}
+
+.movie-photos{
+  height: 150px;
+  width: 150px;
+}
+
+@media screen and (max-width: 750px) {
+  .bg-overlay{
+    display: none;
+  }
+
+  .details{
+    position: static;
+  }
+
+  .hidden-desktop{
+    display: flex !important;
+  }
+
+  .movie-details img{
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .title-info-metadata-wrapper{
+    padding: 0 15px;
+  }
+
+  .movie-title,
+  .movie-desc{
+    padding: 0 15px;
+    color: var(--wb-color-text);
+  }
+}

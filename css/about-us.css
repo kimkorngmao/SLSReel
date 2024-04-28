@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap');
+
+.about-us{
+    max-width: 1350px;
+    padding: 15px;
+    line-height: 30px;
+}
+
+.about-us *{
+    font-family: 'Roboto Slab', serif;
+}
+
+.about-us h1{
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.purpose{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    background-color: rgb(16, 16, 16);
+    color: #FFFFFF;
+}
+
+.purpose a{
+    color: #FFFFFF;
+}
+
+.red{
+    color: #e33c3c;
+}
+
+.teammates-list{
+    display: grid;
+    grid-gap: 10px 0;
+    grid-template-columns: repeat(auto-fit, minmax(120px,1fr));
+}
+
+.teammate-profile{
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 5px;
+    transition: border 0.5s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.teammate-profile:hover{
+    border: 2px solid blue;
+    transform: scale(1.1);
+}
+
+.devide-line{
+    display: block;
+    width: 1.5px;
+    height: 15px;
+    background-color: black;
+}
+
+.contact-us-via-about-page {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 585px){
+    .purpose{
+        font-size: 0.9rem;
+        display: block;
+    }
+
+    .user-box{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contact-us-via-about-page{
+        font-size: 0.7rem;
+    }
+}
