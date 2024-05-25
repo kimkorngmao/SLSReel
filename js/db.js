@@ -40,7 +40,7 @@ const movieByGenre = [
         {
           "id": 8,
           "title": "Up",
-          "posterURL": "https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg",
+          "posterURL": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTYEk2TUjhjSGg-hTZnS3K5FhKJ5WTbhBxbDik0niorWjURsgYk",
         },
         {
           "id": 9,
@@ -80,7 +80,7 @@ const movieByGenre = [
         {
           "id" : 1,
           "title" : "The Perfect Motion",
-          "posterURL" : "https://www.the-perfect-motion.com/wp-content/uploads/2023/11/Screen-Shot-2023-11-08-at-8.20.57-AM.png"
+          "posterURL" : "https://cdn.angkordatabase.asia/imager/images/films/debhtthaa-the-perfect-motion-movie-official-trailer/12999/IMG_20230311_161751_e95592c102908ca1ae02252bbb068e40.jpg"
         },
         {
           "id" : 2,
